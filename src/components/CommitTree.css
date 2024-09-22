@@ -1,0 +1,33 @@
+/* CommitTree.css */
+.commit-tree {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    z-index: 1000;
+    overflow-y: auto;
+  }
+  
+  .commit-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .commit-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+  }
+  
+  .close-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  

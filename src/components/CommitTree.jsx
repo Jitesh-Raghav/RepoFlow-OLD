@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import './CommitTree.css'; // Import the CSS file
 
 const CommitTree = ({ repo, onClose }) => {
   const [commits, setCommits] = useState([]);
